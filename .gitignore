@@ -1,0 +1,12 @@
+# Local credentials must never be committed.
+.env
+.env.*
+!.env.example
+!.env.schema
+node_modules/
+.mastra/
+*.log
+.DS_Store
+
+# Temporary official scaffolder workspace.
+.factory-scaffold/
